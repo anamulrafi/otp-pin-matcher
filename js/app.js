@@ -13,4 +13,9 @@ function generatePin(){
     const random =Math.round(Math.random()*10000);
     return random;
 }
-console.log(getPin());
+
+document.getElementById('generate-pin').addEventListener('click',function(){
+    const pin = getPin();
+    //display pin
+
+})
